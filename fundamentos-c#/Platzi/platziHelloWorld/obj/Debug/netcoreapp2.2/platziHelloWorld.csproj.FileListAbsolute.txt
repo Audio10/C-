@@ -1,0 +1,11 @@
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.deps.json
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.runtimeconfig.json
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.runtimeconfig.dev.json
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.dll
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.pdb
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.csprojAssemblyReference.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.AssemblyInfoInputs.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.AssemblyInfo.cs
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.dll
+C:\Users\claud\platzi\C#\fundamentos-c#\Platzi\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.pdb

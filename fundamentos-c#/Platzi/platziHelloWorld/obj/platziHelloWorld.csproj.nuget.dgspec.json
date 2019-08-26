@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Platzi\\platziHelloWorld\\platziHelloWorld.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Platzi\\platziHelloWorld\\platziHelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Platzi\\platziHelloWorld\\platziHelloWorld.csproj",
+        "projectName": "platziHelloWorld",
+        "projectPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Platzi\\platziHelloWorld\\platziHelloWorld.csproj",
+        "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Platzi\\platziHelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\bin\Debug\netcoreapp2.2\CoreEscuela.deps.json
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\bin\Debug\netcoreapp2.2\CoreEscuela.runtimeconfig.json
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\bin\Debug\netcoreapp2.2\CoreEscuela.runtimeconfig.dev.json
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\bin\Debug\netcoreapp2.2\CoreEscuela.dll
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\bin\Debug\netcoreapp2.2\CoreEscuela.pdb
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.csprojAssemblyReference.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.csproj.CoreCompileInputs.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.AssemblyInfoInputs.cache
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.AssemblyInfo.cs
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.dll
+C:\Users\claud\platzi\C#\fundamentos-c#\CoreEscuela\obj\Debug\netcoreapp2.2\CoreEscuela.pdb
