@@ -9,3 +9,14 @@ C:\Users\claud\platzi\C#\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.As
 C:\Users\claud\platzi\C#\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.AssemblyInfo.cs
 C:\Users\claud\platzi\C#\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.dll
 C:\Users\claud\platzi\C#\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.pdb
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\bin\Debug\netcoreapp2.2\Etapa1.deps.json
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\bin\Debug\netcoreapp2.2\Etapa1.runtimeconfig.json
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\bin\Debug\netcoreapp2.2\Etapa1.runtimeconfig.dev.json
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\bin\Debug\netcoreapp2.2\Etapa1.dll
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\bin\Debug\netcoreapp2.2\Etapa1.pdb
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.csprojAssemblyReference.cache
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.csproj.CoreCompileInputs.cache
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.AssemblyInfoInputs.cache
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.AssemblyInfo.cs
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.dll
+C:\Users\claud\platzi\C#\C-\fundamentos-c#\Etapa1\obj\Debug\netcoreapp2.2\Etapa1.pdb

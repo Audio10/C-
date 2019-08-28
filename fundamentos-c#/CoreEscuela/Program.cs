@@ -1,31 +1,37 @@
 ﻿using System;
+using CoreEscuela.Entidades;
 
-namespace CoreEscuela
+namespace Etapa1
 {
-    class Escuela
+  class Program
+  {
+    static void Main(string[] args)
     {
-        public string Name;
-        public string direction;
-        public int foundationYear;
-        public string ceo;
-        public void Timbrar()
-        {
-            // todo
-            Console.Beep(1000,3000);
-        }
-    }
+      var escuela = new Escuela("Platzi Academy", 2012, TiposEscuela.Primaria, City: "Bogota");
+      escuela.Country = "Colombia";
+      escuela.City = "Bogota";
+      // //Enumerador
+      // escuela.TipoEscuela = TiposEscuela.Primaria;
+      Curso curso1 = new Curso()
+      {
+        Nombre = "101"
+      };
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            //Console.WriteLine("Hello World!");
-            var miEscuela = new Escuela();
-            miEscuela.Name = "Cr 9 calle 72";
-            miEscuela.direction = "direccion 1";
-            miEscuela.foundationYear = 2012;
-            Console.WriteLine("Timbrando");
-            miEscuela.Timbrar();
-        }
+      Curso curso2 = new Curso()
+      {
+        Nombre = "201"
+      };
+
+      Curso curso3 = new Curso()
+      {
+        Nombre = "301"
+      };
+
+      Console.WriteLine(escuela);
+      System.Console.WriteLine("===============");
+      Console.WriteLine(curso1.Nombre + "," + curso1.UniqueId);
+      Console.WriteLine($"{curso2.Nombre} , {curso2.UniqueId}");
+      Console.WriteLine(curso3);
     }
+  }
 }

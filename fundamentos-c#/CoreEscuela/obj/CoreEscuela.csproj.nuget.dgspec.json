@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj": {}
+    "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj": {
+    "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj",
+        "projectUniqueName": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj",
         "projectName": "CoreEscuela",
-        "projectPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj",
+        "projectPath": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\CoreEscuela\\CoreEscuela.csproj",
         "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\CoreEscuela\\obj\\",
+        "outputPath": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\CoreEscuela\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

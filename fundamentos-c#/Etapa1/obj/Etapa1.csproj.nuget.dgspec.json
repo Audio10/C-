@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Etapa1\\Etapa1.csproj": {}
+    "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\Etapa1\\Etapa1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Etapa1\\Etapa1.csproj": {
+    "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\Etapa1\\Etapa1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Etapa1\\Etapa1.csproj",
+        "projectUniqueName": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\Etapa1\\Etapa1.csproj",
         "projectName": "Etapa1",
-        "projectPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Etapa1\\Etapa1.csproj",
+        "projectPath": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\Etapa1\\Etapa1.csproj",
         "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claud\\platzi\\C#\\fundamentos-c#\\Etapa1\\obj\\",
+        "outputPath": "C:\\Users\\claud\\platzi\\C#\\C-\\fundamentos-c#\\Etapa1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
