@@ -24,21 +24,23 @@ namespace Etapa1
       var otraColeccion = new List<Curso>(){
         new Curso(){ Nombre = "401" , Jornada = TiposJornada.Mañana},
         new Curso(){ Nombre = "501" , Jornada = TiposJornada.Mañana},
-        new Curso{ Nombre = "502" , Jornada = TiposJornada.Tarde}
+        new Curso{ Nombre = "502" , Jornada = TiposJornada.Tarde},
+        new Curso{ Nombre = "502" , Jornada = TiposJornada.Mañana}
       };
       
       // otraColeccion.Clear();
       escuela.Cursos.AddRange(otraColeccion);
 
-      Predicate<Curso> miAlgoritmo = Predicate;
-      escuela.Cursos.RemoveAll(miAlgoritmo);
+      // Predicate<Curso> miAlgoritmo = Predicate;
+      escuela.Cursos.RemoveAll(delegate (Curso cur)
+                                        {
+                                          return cur.Nombre == "301";
+                                        });
+
+      escuela.Cursos.RemoveAll( (Curso cur) => cur.Nombre =="502");
+
       ImprimirCursosEscuela(escuela);
 
-    }
-
-    private static bool Predicate(Curso curobj)
-    {
-      return curobj.Nombre == "301";
     }
 
     private static void ImprimirCursosEscuela(Escuela escuela)
