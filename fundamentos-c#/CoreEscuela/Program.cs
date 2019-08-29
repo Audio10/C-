@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CoreEscuela.Entidades;
 using static System.Console;
 
@@ -10,15 +11,34 @@ namespace Etapa1
     {
       var escuela = new Escuela("Platzi Academy", 2012, TiposEscuela.Primaria, City: "Bogota");
       escuela.Country = "Colombia";
-      
-      escuela.Cursos = new Curso[] {
-        new Curso(){ Nombre = "101" },
-        new Curso(){ Nombre = "201" },
-        new Curso{ Nombre = "301" }
+
+      escuela.Cursos = new List<Curso>(){
+        new Curso(){ Nombre = "101" , Jornada = TiposJornada.Mañana},
+        new Curso(){ Nombre = "201" , Jornada = TiposJornada.Mañana},
+        new Curso{ Nombre = "301" , Jornada = TiposJornada.Mañana}
       };
 
-      ImprimirCursosEscuela(escuela);
+      escuela.Cursos.Add(new Curso() { Nombre = "102", Jornada = TiposJornada.Tarde });
+      escuela.Cursos.Add(new Curso() { Nombre = "202", Jornada = TiposJornada.Tarde });
+
+      var otraColeccion = new List<Curso>(){
+        new Curso(){ Nombre = "401" , Jornada = TiposJornada.Mañana},
+        new Curso(){ Nombre = "501" , Jornada = TiposJornada.Mañana},
+        new Curso{ Nombre = "502" , Jornada = TiposJornada.Tarde}
+      };
       
+      // otraColeccion.Clear();
+      escuela.Cursos.AddRange(otraColeccion);
+
+      Predicate<Curso> miAlgoritmo = Predicate;
+      escuela.Cursos.RemoveAll(miAlgoritmo);
+      ImprimirCursosEscuela(escuela);
+
+    }
+
+    private static bool Predicate(Curso curobj)
+    {
+      return curobj.Nombre == "301";
     }
 
     private static void ImprimirCursosEscuela(Escuela escuela)
@@ -28,51 +48,14 @@ namespace Etapa1
       WriteLine("============================");
 
       // si escuela no es null comprara si es cursos null
-      if(escuela?.Cursos == null) return;
-      
-      foreach(var curso in escuela.Cursos)
+      if (escuela?.Cursos == null) return;
+
+      foreach (var curso in escuela.Cursos)
       {
         WriteLine($"Nombre {curso.Nombre}, Id {curso.UniqueId}");
       }
 
     }
-
-    private static void ImprimirCursosWhile(Curso[] arregloCursos)
-    {
-      int contador = 0;
-      while (contador < arregloCursos.Length)
-      {
-        Console.WriteLine($"Nombre {arregloCursos[contador].Nombre  }, Id  {arregloCursos[contador].UniqueId}");
-        contador++;
-      }
-    }
-
-    private static void ImprimirCursosDoWhile(Curso[] arregloCursos)
-    {
-      int contador = 0;
-      do
-      {
-        Console.WriteLine($"Nombre {arregloCursos[contador].Nombre  }, Id  {arregloCursos[contador].UniqueId}");
-        // contador++;
-      }while (++contador < arregloCursos.Length);
-    }
-
-    private static void ImprimirCursosFor(Curso[] arregloCursos)
-    {
-      for (int i=0; i<arregloCursos.Length; i++)
-      {
-        Console.WriteLine($"Nombre {arregloCursos[i].Nombre  }, Id  {arregloCursos[i].UniqueId}");
-      }
-    }
-
-    private static void ImprimirCursosForEach(Curso[] arregloCursos)
-    {
-      foreach(var Curso in arregloCursos)
-      {
-        Console.WriteLine($"Nombre {Curso.Nombre  }, Id  {Curso.UniqueId}");
-      }
-    }
-
 
   }
 }
