@@ -1,2 +1,7 @@
 .vscode
 .bin
+.dll
+.pdb
+.cache
+.json
+.vs/
