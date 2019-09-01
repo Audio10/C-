@@ -1,49 +1,30 @@
 using System.Collections.Generic;
+using System;
 
 namespace CoreEscuela.Entidades
 {
-  class Escuela
+  public class Escuela: ObjetoEscuelaBase
   {
-    string name;
-    // Encapsulamiento si se cambia algo
-    public string Name
-    {
-      get { return "Copia: " + name; }
-      set { name = value.ToUpper(); }
-    }
-
-    //Encapsulamiento si no se modifica nada
-    public int CreatedYear { get; set; }
-    public string Country { get; set; }
-    public string City { get; set; }
-    public TiposEscuela TipoEscuela {get; set;}
+    public int AñoDeCreación { get; set; }
+    public string Pais { get; set; }
+    public string Ciudad { get; set; }
+    public TiposEscuela TipoEscuela { get; set; }
     public List<Curso> Cursos { get; set; }
 
-    //Constructor
-    // public Escuela(string name, int CreatedYear)
-    // {
-    //   this.name = name;
-    //   this.CreatedYear = CreatedYear;
-    // }
+    public Escuela(string nombre, int año) => (Nombre, AñoDeCreación) = (nombre, año);
 
-  //IGUALACION POR TUPLAS PROGRAMACION FUNCIONAL
-  // (parametos) = > (entidades de la clase) = (parametros)
-    public Escuela(string name, int year) => (Name, CreatedYear) = (name,year);
-    public Escuela(string name,
-                   int year,
-                   TiposEscuela tipos,
-                   string Country = "",
-                   string City="")
+    public Escuela(string nombre, int año,
+                   TiposEscuela tipo,
+                   string pais = "", string ciudad = "") : base()
     {
-      (Name, CreatedYear) = (name, year);
-      this.Country = Country;
-      this.City = City;
+      (Nombre, AñoDeCreación) = (nombre, año);
+      Pais = pais;
+      Ciudad = ciudad;
     }
 
     public override string ToString()
     {
-      // { System.Environment.NewLine} NUEVA LINEA ESTO ES PORQUE NO TODOS LOS CARACTERES SON LOS MISMOS EN TODOS LOS LUGARES.
-      return $"\nNombre: \"{name}\" \nTipo: {TipoEscuela} {System.Environment.NewLine}Pais:{Country} \nCiudad: {City}";
+      return $"Nombre: \"{Nombre}\", Tipo: {TipoEscuela} {System.Environment.NewLine} Pais: {Pais}, Ciudad:{Ciudad}";
     }
   }
 }
